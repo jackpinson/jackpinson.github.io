@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>The Smash Directory</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+<h1 style='font-size:50px;'>The Smash Directory </h1>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body {
+	background-color: #136e34;
+	}
+	
+h1 {text-align: center;
+	font-family:comicsans;
+	background-color#ffffff: 
+	}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+li {
+  float:center;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+img {
+	width: 50%
+}
+.textdiv1 {
+	font-size: 100 px;
+	width: 49%;
+	float: right; 
+	text-align: center;
+}
+
+.flip-card{
+	background-color: transparent;
+	width: 450px;
+	height: 300px;
+	perspective: 1000px;
+	float: left;
+}
+
+.flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0,2);
+}
+
+.flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.flip-card-front {
+	background-color: #bbb;
+	color: black;
+}
+
+.flip-card-back {
+	background-color: black;
+	color: white;
+	transform: rotateY(180deg);
+}
+
+</style>
+</head>
+<body>
+
+<ul>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Tier List</a>
+    <div class="dropdown-content">
+      <a href="tierlist.html">Tier List Maker</a>
+      </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Combos</a>
+    <div class="dropdown-content">
+      <a href="combos.html">Combos</a>
+      </div>
+  </li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Socials</a>
+    <div class="dropdown-content">
+      <a href="socials.html">Socials</a>
+	  </div>
+  </li>
+</ul>
+
+
+<img src = "FightersPass.jpg">
+
+
+<div class='textdiv1'>
+	<h2>Welcome to The Smash Directory</h2>
+	<h3>Check out the newest updates coming to Super Smash Bros Ultimate!</h3>
+</div>
+
+<div class="flip-card">
+	<div class="flip-card-inner">
+		<div class="flip-card-front">
+			<img src="Ver8.jpg" alt="Version 8" style="width:450px;height:300px;">
+		</div>
+		<div class="flip-card-back">
+			<h1>Version 8!</h1>
+			<p>Update data (Ver. 8.0.0) will begin distribution on 30/06/2020! This update includes<p>
+			<p>Min Min from ARMS joins the battle!<p>
+			<p>New stage added: Spring Stadium<p>
+		</div>
+	</div>
+</div>
+<div class="flip-card">
+	<div class="flip-card-inner">
+		<div class="flip-card-front">
+			<img src="Ver9.jpg" alt="Version 8" style="width:450px;height:300px;">
+		</div>
+		<div class="flip-card-back">
+			<h1>Version 9!</h1>
+			<p>Update data (Ver. 9.0.0) will begin distribution on 14/10/2020! This update includes:<p>
+			<p>Steve and Alex (from Minecraft) join the battle!<p>
+			<p>New stage added: Minecraft World<p>
+		</div>
+</div>
+</div>
+<div class="flip-card">
+	<div class="flip-card-inner">
+		<div class="flip-card-front">
+			<img src="Ver10.jpg" alt="Version 8" style="width:450px;height:300px;">
+		</div>
+		<div class="flip-card-back">
+			<h1>Version 10!</h1>
+			<p>Update data (Ver. 10.1.0) will begin distribution on 23/12/2020!<p>
+			<p>Sephiroth (from the FINAL FANTASY VII series) joins the battle!<p>
+			<p>New stage added: Northern Cave<p>
+		</div>
+	</div>
+</div>
+<div class="flip-card">
+	<div class="flip-card-inner">
+		<div class="flip-card-front">
+			<img src="Ver11.jpg" alt="Version 8" style="width:450px;height:300px;">
+		</div>
+		<div class="flip-card-back">
+			<h1>Version 11!</h1>
+			<p>Update data (Ver. 11.0) will begin distribution on 05/03/2021!<p>
+			<p>Pyra/Mythra from Xenoblade Chronicles 2 joins the battle!<p>
+			<p>New stage added: Cloud Sea of Alrest<p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
